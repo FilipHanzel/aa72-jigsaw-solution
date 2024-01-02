@@ -14,7 +14,7 @@ def preview_contents(container: Any) -> None:
                 item_preview = _build(item)
                 if item_preview not in preview:
                     preview.append(item_preview)
-            return container.__class__(preview)
+            return container.__class__(sorted(preview, key=str))
         else:
             return type(container)
 
