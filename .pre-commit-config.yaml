@@ -10,7 +10,8 @@ repos:
         types_or: [python, jupyter]
         args: [
           --fix,
-          --select, "I,F,E,W,N"
+          --select, "I,F,E,W,N",
+          --ignore, "E501"
         ]
   - repo: https://github.com/psf/black
     rev: 23.12.1
