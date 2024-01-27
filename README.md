@@ -1,0 +1,1 @@
+Dataset containing 2000 photos of the back sides of jigsaw pieces in JPG format.
