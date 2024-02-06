@@ -14,3 +14,4 @@ repos:
           --ignore, "E501"
         ]
       - id: ruff-format
+        types_or: [python, jupyter]
