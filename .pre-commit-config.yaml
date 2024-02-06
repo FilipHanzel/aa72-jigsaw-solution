@@ -13,7 +13,4 @@ repos:
           --select, "I,F,E,W,N",
           --ignore, "E501"
         ]
-  - repo: https://github.com/psf/black
-    rev: 23.12.1
-    hooks:
-      - id: black-jupyter
+      - id: ruff-format
